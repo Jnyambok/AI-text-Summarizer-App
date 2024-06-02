@@ -4,6 +4,10 @@ Are you tired of reading long articles and blog posts?
 
 This web application uses the power of Hugging Face's Facebook/bart-large-cnn model to condense lengthy texts into concise summaries.  
 
+You can access it through : https://ai-text-summarizer-app-4.onrender.com
+
+
+
 ## How It Works
 
 1. **Paste:** Drop your text into the magic box. 
@@ -29,7 +33,7 @@ This web application uses the power of Hugging Face's Facebook/bart-large-cnn mo
 * **Axios:**  For smooth API calls. ✈
 * **Hugging Face API:**  The brain behind the operation. 🧠
 * **HTML, CSS, JavaScript:**  The tools for a beautiful front-end. ✨
-
+* **Render.com:**  Hosting the application. ✨
 ## Contributing
 
 Want to make Summarize This! even better?  Contributions are always welcome!  Submit pull requests for improvements and bug fixes. 🎉
