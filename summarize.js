@@ -1,14 +1,16 @@
 // Asynchronous function that makes you API call to the Hugging face API
 const axios = require('axios');
+let ready = false; // Add ready flag
 
+async function summarizeText(text) {
+  if (!ready) {
+    return Promise.reject(new Error('Model is not ready yet.')); // Return error if not ready
+  }
 
-
-
-async function summarizeText(text){
   let data = JSON.stringify({
     "inputs":text,
     "parameters": {
-      "max_length": 100,
+      "max_length": 1000,
       "min_length": 30
     }
   });
@@ -34,6 +36,12 @@ async function summarizeText(text){
 
 
 }
+
+//Initialize the model
+(async () => {
+  //your existing code to load the model
+  ready = true; // Set the ready flag after the model is loaded
+})();
 
 //Allowed to be called outside this file
 module.exports = summarizeText
