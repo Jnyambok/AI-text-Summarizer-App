@@ -17,7 +17,7 @@ You can access it through : https://ai-text-summarizer-app-4.onrender.com
 
 ## Features
 
-* **Super Speedy: ** You can get your summary instantly. 💨
+* **Super Speedy:** You can get your summary instantly. 💨
 * **AI-Powered:**  Harness the brainpower of a cutting-edge language model. 🧠
 * **User-Friendly:**  Simple interface makes it easy to use. ✨
 
